@@ -1,6 +1,7 @@
 package com.vitor238.f1drivers.ui
 
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -27,7 +28,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun observeData() {
+        shimmer_view_container.startShimmer()
         viewModel.fetchDriversData().observe(this, {
+            shimmer_view_container.stopShimmer()
+            shimmer_view_container.visibility = View.GONE
             driversAdapter.setListData(it)
             driversAdapter.notifyDataSetChanged()
         })

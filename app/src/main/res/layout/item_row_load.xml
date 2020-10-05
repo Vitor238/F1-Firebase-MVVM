@@ -13,26 +13,27 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginEnd="4dp"
-        android:src="@color/placeholder" />
+        android:background="@color/placeholder" />
 
-    <TextView
+    <View
         android:id="@+id/text_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="12dp"
+        android:layout_marginBottom="4dp"
         android:layout_toEndOf="@id/image_photo"
+        android:background="@color/placeholder"
         android:fontFamily="@font/open_sans_bold"
         android:textColor="@color/black"
-        android:layout_marginBottom="4dp"
         tools:text="Lewis Hamilton" />
 
-    <TextView
+    <View
         android:id="@+id/text_team"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="12dp"
         android:layout_below="@id/text_name"
         android:layout_toEndOf="@id/image_photo"
+        android:background="@color/placeholder"
         android:textColor="@color/black"
-        android:textSize="12sp"
         tools:text="Team: Mercedes" />
 
 </RelativeLayout>
