@@ -1,14 +1,15 @@
 # F1 Drivers 2020
 
-Um simples aplicativo que demostra a lista de pilotos da temporada 2020 da Formula 1   utlizando a arquitetura MVVM e o Firebase Cloud Firestore como backend.
+Um simples aplicativo que demostra a lista de pilotos da temporada 2020 da Formula 1 utlizando a arquitetura MVVM e o Firebase Cloud Firestore como backend.
 
-[Readme in English](README-EN.md) - [Baixar APK](#Baixar APK) - [Como executar](#Como executar) - [Tecnloigias utlizadas](#Tecnlogias utilizadas) - [Licença](#Licença)
+[Readme in English](README-EN.md) - [Baixar APK](#baixar-apk) - [Como executar](#como-executar) - [Tecnloigias utlizadas](#tecnlogias-utilizadas) - [Licença](#licença)
 
-<img title="" src="file:///home/vitor/AndroidStudioProjects/F1Drivers2020/screenshots/screen_capture.gif" alt="captura de tela" width="263" data-align="center">
+<img src="./screenshots/screenshot.gif" alt="Captura de tela" 
+width="270">
 
 ## Baixar APK
 
-Clique aqui para baixar o APK.
+[Clique aqui](https://github.com/Vitor238/F1-Firebase-MVVM/raw/main/apk/app-debug.apk) para baixar o APK.
 
 ## Como executar
 
@@ -28,11 +29,11 @@ Clique aqui para baixar o APK.
 
 ## Tecnlogias utilizadas
 
-- [Android Archteture Components](https://developer.android.com/jetpack/androidx/releases/lifecycle#kotlin)  (ViewModel e LiveData)
+- [Android Architecture Components](https://developer.android.com/jetpack/androidx/releases/lifecycle#kotlin)  (ViewModel e LiveData)
 
-- [Firebase Cloud Firestore]([Cloud Firestore &nbsp;|&nbsp; Firebase](https://firebase.google.com/docs/firestore))
+- [Firebase Cloud Firestore](https://firebase.google.com/docs/firestore)
 
-- [Shimmer]([Shimmer for Android](https://facebook.github.io/shimmer-android/))
+- [Shimmer](https://facebook.github.io/shimmer-android/)
 
 - [Glide](https://github.com/bumptech/glide)
 

@@ -2,13 +2,13 @@
 
 A simple app that shows the list of drivers of the 2020 Formula 1 season using the MVVM architecture and the Firebase Cloud Firestore as backend.
 
-[Readme em Português](README.md) - [Download APK](#Download APK) - [How to build](# How to build) - [Technologies used](# Technologies used) - [License](# License)
+[Readme em Português](README.md) - [Download APK](#download-apk) - [How to build](#how-to-build) - [Technologies used](#technologies-used) - [License](#license)
 
-<img title="" src="file:///home/vitor/AndroidStudioProjects/F1Drivers2020/screenshots/screen_capture.gif" alt="captura de tela" width="263" data-align="center">
+<img src="./screenshots/screenshot.gif" alt="Screenshot" width="270">
 
 ## Download APK
 
-Click here to download the APK.
+[Click here](https://github.com/Vitor238/F1-Firebase-MVVM/raw/main/apk/app-debug.apk) to download the APK.
 
 ## How to build
 
@@ -30,9 +30,9 @@ Click here to download the APK.
 
 - [Android Architecture Components](https://developer.android.com/jetpack/androidx/releases/lifecycle#kotlin)  (ViewModel e LiveData)
 
-- [Firebase Cloud Firestore]([Cloud Firestore &nbsp;|&nbsp; Firebase](https://firebase.google.com/docs/firestore))
+- [Firebase Cloud Firestore](https://firebase.google.com/docs/firestore)
 
-- [Shimmer]([Shimmer for Android](https://facebook.github.io/shimmer-android/))
+- [Shimmer](https://facebook.github.io/shimmer-android/)
 
 - [Glide](https://github.com/bumptech/glide)
 
